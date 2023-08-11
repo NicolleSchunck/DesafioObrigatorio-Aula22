@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Bootstrap  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Local styles -->
+  <link rel="stylesheet" href="./style/styles.css">
+
+    <title>Desafio Obrigatório - Aula 22</title>
+</head>
+<body>
+    <header class="text-center">
+        <img src="images/logo_harry.png" alt="Harry Potter logo" class="logo">
+      </header>
+      <main class="container">
+        <div class="row">
+    
+          <section class="card center">
+            <h1>Vamos começar?</h1>
+            <form>
+              <div class="form-group">
+                <select name="options" onchange="location = this.value;" class="form-control">
+                  <option value="">Escolha uma Opção:</option>
+                  <option value="personagens.html">Personagens</option>
+                  <option value="feitiços.html">Feitiços</option>
+                </select>
+              </div>
+            </form>
+          </section>
+    
+          <section id="container" class="card invisible" >
+          <table id="resultado" class="table  table-dark visible">
+    
+          </table>
+          </section>
+    
+        </div>
+      </main>
+</body>
+</html>
